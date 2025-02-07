@@ -3,7 +3,7 @@ export default function About(props){
         <>
         <div style={props.mode}  className="flex justify-center min-h-screen py-20 w-[100vw]">
             <div className="flex flex-col justify-center items-center w-[85vw]  md:h-[55vh] lg:h-[60vh] flex-wrap gap-5  rounded-2xl  shadow-lg shadow-gray-600/55  p-6 ">
-                <div className="md:text-3xl font-bold">About TextUtils</div>
+                <div className="md:text-3xl text-2xl font-bold">About TextUtils</div>
                 <div className="text-center">TextUtils is a simple yet powerful text utility tool designed to enhance your text-processing experience. Whether you need to analyze text, convert case formats, or estimate reading time, TextUtils provides an easy and efficient way to handle your text operations.</div>
                 <div className="text-2xl font-bold">Features:</div>
                 <div>

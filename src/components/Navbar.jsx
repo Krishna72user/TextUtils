@@ -18,7 +18,11 @@ export default function Navbar(props){
     return(
         <>
         <nav style={props.mode} className='w-[100vw] fixed top-0 h-[3.5em] bg-gray-500/20 backdrop-blur-lg flex justify-between items-center'>
-            <div className='md:text-2xl text-xl font-bold p-2.5'onClick={()=>window.location.reload()} >{props.title}</div>
+        <NavLink to='/' end>
+            <div className='md:text-2xl text-xl font-bold p-2.5'onClick={()=>{
+                window.location.reload()
+            }} >{props.title}</div>
+        </NavLink>
             <div className='flex font-bold md:gap-5 gap-2 pr-3'>
 
                     <NavLink to='/' className={({ isActive }) =>
